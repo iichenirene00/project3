@@ -1,0 +1,149 @@
+.none {
+  display: none;
+}
+.detail_o {
+  padding: 10rem;
+  width: 1510px;
+  margin: auto;
+}
+
+.detail_wrapper {
+  margin: 0 5rem;
+
+  .back {
+    color: #000;
+    padding: 1.6rem;
+    font-size: 1.17em;
+    display: inline-block;
+  }
+
+  .detail_info {
+    display: flex;
+    width: 1052px;
+    border: 1px solid #e1e1e1;
+
+    .detail_left {
+      display: flex;
+      width: 150px;
+      box-sizing: border-box;
+      flex-direction: column;
+      padding: 10px;
+
+      .detail_pic {
+        width: 100%;
+        height: 100px;
+        border: 1px solid #e1e1e1;
+        margin-bottom: 5px;
+
+        .item_pic {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+
+    .detail_mid {
+      width: 40rem;
+      flex-grow: 1;
+      background-color: #f8f8f8;
+
+      .mid_pic {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .detail_right {
+      width: 500px;
+      padding: 3.2rem;
+
+      .stitle {
+        color: #818181;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      .sname {
+        margin-top: 0;
+        margin-bottom: 0.67em;
+        font-size: 2em;
+        font-weight: 600;
+      }
+
+      .sdetail {
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
+
+      .divider {
+        width: 100%;
+        height: 1px;
+        background-color: #f1f1f1;
+      }
+
+      .ftitle {
+        color: #818181;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      .size {
+        width: 100%;
+        border: 1px solid rgb(204, 204, 204);
+        height: 38px;
+        color: #808080;
+      }
+
+      .iprice {
+        font-size: 2em;
+        margin: 0.67em 0;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.color {
+  .ctitle {
+    color: #818181;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .color_choose {
+    width: 100%;
+    display: flex;
+    height: 40px;
+    .color_item {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin: 0 10px;
+      border: none;
+    }
+  }
+}
+
+.dadd {
+  font-size: 1.2rem;
+  padding: 1.2rem 1.6rem;
+  background-color: #101010;
+  color: #fff;
+  border: none;
+}
+
+.dremove {
+  color: #101010;
+  background-color: #e1e1e1;
+  border: none;
+  overflow: hidden;
+}
+
+.checkmark {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 5px;
+}

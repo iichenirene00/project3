@@ -1,0 +1,232 @@
+.nav {
+  width: 100%;
+  height: 10rem;
+  padding: 3rem 5rem 0.5rem;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  z-index: 200;
+
+  .logo {
+    margin-right: 2rem;
+    .logo_link {
+      display: block;
+      .logo_pic {
+        object-fit: contain;
+        width: 15rem;
+      }
+    }
+  }
+
+  .menu {
+    display: flex;
+    margin-right: 2rem;
+    flex-grow: 1;
+    .page {
+      padding: 10px 15px;
+      font-size: 1.4rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: #7d7d7d;
+    }
+  }
+
+  .search {
+    display: flex;
+    width: 367px;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+
+    .filter_button {
+      font-size: 1.2rem;
+      padding: 1.2rem 1.6rem;
+      background-color: #f2f2f2;
+      color: #7d7d7d;
+      border: 1px solid #e1e1e1;
+    }
+
+    .mag {
+      position: absolute;
+      left: 8rem;
+      top: 0;
+      font-size: 1.6rem;
+      bottom: 0;
+      line-height: 50px;
+    }
+    .searchbox {
+      width: 300px;
+      padding-left: 4.8rem !important;
+      background-color: #fff;
+      border: 1px solid #e1e1e1;
+      font-size: 1.2rem;
+      padding: 1.2rem 1.6rem;
+    }
+  }
+
+  .sign_basket {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .signs {
+      margin-left: 5.6rem;
+      height: 100%;
+
+      .sign_up {
+        font-weight: 700;
+        font-size: 1.2rem;
+        padding: 1.2rem 1.6rem;
+        color: #fff;
+        background-color: #101010;
+        border: 1px solid #101010;
+      }
+
+      .sign_in {
+        font-weight: 700;
+        font-size: 1.2rem;
+        padding: 1.2rem 1.6rem;
+        margin-left: 1.2rem;
+        background-color: #f2f2f2;
+        color: #7d7d7d;
+        border: 1px solid #e1e1e1;
+      }
+    }
+  }
+}
+
+.home {
+  color: #101010;
+}
+
+.active {
+  color: #101010 !important;
+}
+
+.sign_active {
+  display: none;
+}
+
+.sign_overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 2000;
+
+  .must_sign {
+    position: fixed;
+    inset: 50% auto auto 50%;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: white;
+    overflow: auto;
+    border-radius: 4px;
+    padding: 50px 20px;
+    z-index: 9999;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    .sign_text {
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .sign_button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .continue {
+        font-size: 1.2rem;
+        padding: 1.2rem 1.6rem;
+        border: 1px solid #e1e1e1;
+        color: #4a4a4a;
+        background-color: transparent;
+
+        &:hover {
+          background-color: #e1e1e1;
+        }
+      }
+
+      .scheck {
+        font-size: 1.2rem;
+        padding: 1.2rem 1.6rem;
+        border: 1px solid black;
+        color: #fff;
+        background-color: black;
+      }
+    }
+  }
+}
+
+.user {
+  padding: 0;
+  margin: 0;
+  .user_nav {
+    margin-left: 1.6rem;
+    align-items: center;
+    position: relative;
+    padding: 0 1.2rem;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    &:hover {
+      cursor: pointer;
+    }
+
+    .user_text {
+      max-width: 120px;
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 0.83em;
+      font-weight: 500;
+    }
+
+    .user_img {
+      width: 30px;
+      font-weight: 600;
+      height: 30px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-left: 10px;
+      position: relative;
+      background-color: #4a4a4a;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .da {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+
+    .user_sub {
+      width: 150px;
+      height: auto;
+      background-color: #fff;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+
+      .account {
+        background-color: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.2rem 1.6rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

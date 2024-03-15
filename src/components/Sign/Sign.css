@@ -1,0 +1,166 @@
+.sign_wrapper {
+  width: 80rem;
+  height: 463.7px;
+  margin: auto;
+  box-sizing: border-box;
+
+  .sign_top {
+    border: 1px solid #c5c5c5;
+    display: flex;
+    justify-content: center;
+    padding: 1.6rem 3.2rem 3.2rem;
+    box-sizing: border-box;
+    width: 100%;
+
+    .sign_left {
+      width: 354.91px;
+
+      .sign_title {
+        font-size: 1.17em;
+        font-weight: 500;
+      }
+
+      .input_info {
+        display: flex;
+        flex-direction: column;
+
+        .input_name {
+          padding: 1rem 1.2rem;
+          color: #696868;
+          border: none;
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+
+        .input_box {
+          padding: 10px 1.6rem !important;
+          border: 1px solid #c5c5c5 !important;
+          font-size: 1.5rem !important;
+
+          &::placeholder {
+            color: #c1c1c1;
+          }
+        }
+      }
+
+      .b1_wrapper {
+        display: flex;
+        justify-content: flex-end;
+
+        .b1 {
+          background-color: #101010;
+          padding: 1.6rem;
+          border: 1px solid #101010;
+          color: #fff;
+          font-size: 1.6rem;
+        }
+      }
+    }
+
+    .sign_mid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 4.8rem;
+      position: relative;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        height: 30%;
+        width: 1px;
+        background: #e1e1e1;
+      }
+
+      &::before {
+        top: 25%;
+      }
+
+      &::after {
+        bottom: 25%;
+      }
+
+      .or {
+        background-color: #fff;
+        padding: 1.2rem;
+        z-index: 12;
+      }
+    }
+
+    .sign_right {
+      width: 246.6px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      .facebook {
+        margin-bottom: 1.2rem;
+        background-color: #0078ff;
+        color: #fff;
+        border: 1px solid #0078ff;
+        width: 100%;
+        font-size: 1.4rem;
+        padding: 1.6rem;
+
+        &:hover {
+          background-color: #2a5587;
+        }
+      }
+
+      .google {
+        margin-bottom: 1.2rem;
+        background-color: #fff;
+        color: #101010;
+        border: 1px solid #e1e1e1;
+        width: 100%;
+        font-size: 1.4rem;
+        padding: 1.6rem;
+
+        &:hover {
+          background-color: #c5c5c5;
+        }
+      }
+
+      .github {
+        margin-bottom: 1.2rem;
+        background-color: #101010;
+        color: #fff;
+        border: 1px solid #101010;
+        width: 100%;
+        font-size: 1.4rem;
+        padding: 1.6rem;
+      }
+    }
+  }
+
+  .sign_bottom {
+    box-sizing: border-box;
+    width: 800px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    margin: auto;
+    background-color: #f2f2f2;
+    border: 1px solid #c5c5c5;
+    border-top: none;
+
+    .msg {
+      margin-right: 3.2rem;
+      color: #4a4a4a;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
+    .b2 {
+      font-size: 1.2rem;
+      padding: 1.2rem 1.6rem;
+      border: 1px solid #e1e1e1;
+      color: #4a4a4a;
+      background: transparent;
+    }
+  }
+}

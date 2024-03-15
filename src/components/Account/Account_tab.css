@@ -1,0 +1,28 @@
+.user_tab_nav {
+  background: #f2f2f2;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 3.2rem;
+
+  .user_tab_menu {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: -1px;
+
+    .tab_item {
+      list-style-type: none;
+      color: #818181;
+      padding: 1.6rem;
+      font-size: 1.5rem;
+      border-bottom: 1px solid transparent;
+      display: inline-block;
+    }
+
+    .tab_chosen {
+      color: #4a4a4a;
+      font-weight: 700;
+      border-bottom: 1px solid #fff;
+      background: #fff;
+    }
+  }
+}

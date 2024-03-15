@@ -1,0 +1,54 @@
+.header {
+  width: 1510px;
+  height: 400px;
+  background-color: #f3f3f3;
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+
+.header_left {
+  width: 50%;
+  height: 100%;
+  padding: 5rem;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-around;
+
+  .title {
+    font-size: 48px;
+    margin-bottom: 10px;
+
+    .thin {
+      font-weight: 400;
+    }
+  }
+
+  .text {
+    line-height: 26px;
+  }
+
+  .shop {
+    margin: 0;
+    width: 124.11px;
+    background-color: #101010;
+    display: block;
+    padding: 1.6rem;
+    border-color: #fff;
+    text-align: center;
+    color: #fff;
+  }
+}
+.header_right {
+  width: 100%;
+  height: 100%;
+  flex-basis: 50%;
+  overflow: hidden;
+  .pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

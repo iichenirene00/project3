@@ -1,0 +1,22 @@
+.home,
+.featured,
+.recommended,
+.shop,
+.sign,
+.summary,
+.shipping,
+.payment,
+.account {
+  padding: 10rem;
+  width: 1510px;
+  margin: auto;
+}
+
+.user_tab {
+  position: relative;
+  width: 700px;
+  height: 100%;
+  margin: 3rem auto 0;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+}
